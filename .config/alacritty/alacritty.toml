@@ -1,0 +1,67 @@
+#Alacritty configuration
+import = ["~/.config/alacritty/themes/catppuccin-macchiato.toml"]
+
+
+[shell]
+#program = "/usr/bin/zsh"
+program = "/usr/bin/bash"
+
+[scrolling]
+history = 100000
+
+[window]
+padding = { x = 5, y = 5 }
+dynamic_padding = true
+startup_mode = "Maximized"
+decorations = "None"
+
+[colors.cursor]
+text = "CellBackground"
+cursor = "CellForeground"
+
+[hints]
+alphabet = "jfkdls;ahgurieowpq"
+
+[[hints.enabled]]
+command = "xdg-open"
+hyperlinks = true
+post_processing = true
+persist = true
+
+[hints.enabled.mouse]
+enabled = true
+mods = "None"
+
+[cursor]
+blink_timeout = 0
+blink_interval = 600
+
+[cursor.style]
+blinking = "Always"
+
+[font]
+size = 17
+
+[font.normal]
+family = "Inconsolata"
+#family = "Iosevka Nerd Font"
+#family = "SauceCodePro Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "Inconsolata"
+#family = "Iosevka Nerd Font"
+#family = "SauceCodePro Nerd Font"
+style = "SemiBold"
+
+[font.bold_italic]
+family = "Inconsolata"
+#family = "Iosevka Nerd Font"
+#family = "SauceCodePro Nerd Font"
+style = "SemiBold Italic"
+
+[font.italic]
+family = "Inconsolata"
+#family = "Iosevka Nerd Font"
+#family = "SauceCodePro Nerd Font"
+style = "Italic"
