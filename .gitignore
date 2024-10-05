@@ -1,0 +1,10 @@
+# Suckless 
+
+*.o
+*.orig
+*.rej
+st
+util.o
+dwm
+dwm.o
+drw.o
