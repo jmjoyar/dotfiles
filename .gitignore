@@ -8,3 +8,5 @@ util.o
 dwm
 dwm.o
 drw.o
+dmenu
+stest
