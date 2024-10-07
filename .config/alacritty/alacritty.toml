@@ -43,25 +43,25 @@ blinking = "Always"
 size = 17
 
 [font.normal]
-family = "Inconsolata"
+family = "Inconsolata Nerd Font"
 #family = "Iosevka Nerd Font"
 #family = "SauceCodePro Nerd Font"
 style = "Regular"
 
 [font.bold]
-family = "Inconsolata"
+family = "Inconsolata Nerd Font"
 #family = "Iosevka Nerd Font"
 #family = "SauceCodePro Nerd Font"
-style = "SemiBold"
+style = "Bold"
 
 [font.bold_italic]
-family = "Inconsolata"
+family = "Inconsolata Nerd Font"
 #family = "Iosevka Nerd Font"
 #family = "SauceCodePro Nerd Font"
 style = "SemiBold Italic"
 
 [font.italic]
-family = "Inconsolata"
+family = "Inconsolata Nerd Font"
 #family = "Iosevka Nerd Font"
 #family = "SauceCodePro Nerd Font"
 style = "Italic"
