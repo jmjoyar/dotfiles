@@ -40,7 +40,6 @@ return {
 					},
 					{ "encoding", fmt = string.lower },
 					{ "fileformat", icons_enabled = false, fmt = string.lower },
-					{ "filetype", colored = true, icon = { align = "right" } },
 				},
 			},
 
