@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font =
-    "Inconsolata:Regular:pixelsize=24:antialias=true:autohint=true";
+    "Inconsolata Nerd Font:Regular:pixelsize=24:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
     /*	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true",
