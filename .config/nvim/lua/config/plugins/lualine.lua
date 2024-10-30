@@ -10,8 +10,9 @@ return {
 			options = {
 				always_divide_middle = false,
 				globalstatus = true,
-				theme = "catppuccin",
+				theme = "auto",
 				icons_enabled = true,
+				component_separators = { left = "", rigth = "" },
 			},
 			sections = {
 				lualine_b = {
@@ -32,7 +33,16 @@ return {
 						symbols = { error = " ", warn = " ", info = " ", hint = " " },
 					},
 				},
-				lualine_c = { { "filename", newfile_status = true, path = 1 } },
+				lualine_c = {
+					{
+						"filetype",
+						colored = true,
+						icon_only = true,
+						icon = { align = "left" },
+						padding = { left = 1, rigth = 0 },
+					},
+					{ "filename", newfile_status = true, path = 0, padding = { left = 0, rigth = 1 } },
+				},
 				lualine_x = {
 					{
 						require("lazy.status").updates,
