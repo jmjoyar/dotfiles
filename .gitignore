@@ -23,6 +23,7 @@ stest
 # Emacs packages
 elpa/
 var/
+tree-sitter/
 
 #  Emacs tmp files & Misc
 /.mc-lists.el
