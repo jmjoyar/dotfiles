@@ -41,7 +41,8 @@ tutorial/
 /tramp
 /url/cookies
 /.python-environments/
-/ido.last
+.emacs.d/ido.last
+.emacs.d/smex-items
 /places
 /private.el
 /games/
