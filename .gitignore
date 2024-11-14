@@ -24,6 +24,7 @@ stest
 elpa/
 var/
 tree-sitter/
+tutorial/
 
 #  Emacs tmp files & Misc
 /.mc-lists.el
