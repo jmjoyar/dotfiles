@@ -6,7 +6,7 @@ return {
 	cmd = { "G", "Git" },
 	keys = {
 		{ "<leader>gs", ":Git status<CR>", desc = "Git status" },
-		{ "<leader>gd", ":Gvdiffsplit<CR>", desc = "Git diff" },
+		{ "<leader>gd", ":Ghdiffsplit<CR>", desc = "Git diff" },
 		{ "<leader>gp", ":Git push<CR>", desc = "Git push" },
 	},
 }
