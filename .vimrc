@@ -53,6 +53,9 @@ set wildmode=list:longest
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 set wildoptions=pum
 
+set complete-=i
+set complete+=kspell
+
 let g:netrw_banner=0
 
 set termguicolors
