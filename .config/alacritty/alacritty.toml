@@ -1,5 +1,5 @@
 #Alacritty configuration
-import = ["~/.config/alacritty/themes/rose-pine-moon.toml"]
+import = ["~/.config/alacritty/themes/catppuccin-mocha.toml"]
 
 
 [shell]
@@ -10,7 +10,7 @@ program = "/usr/bin/bash"
 history = 100000
 
 [window]
-padding = { x = 5, y = 5 }
+padding = { x = 0, y = 0 }
 dynamic_padding = true
 startup_mode = "Maximized"
 decorations = "None"
