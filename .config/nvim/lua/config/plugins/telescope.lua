@@ -32,7 +32,7 @@ return {
 
 		telescope.setup({
 			defaults = {
-				initial_mode = "insert",
+				initial_mode = "normal",
 				layout_strategy = "horizontal",
 				layout_config = {
 					horizontal = {

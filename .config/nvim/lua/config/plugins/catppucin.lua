@@ -7,8 +7,8 @@ local M = {
 
 M.config = function()
 	require("catppuccin").setup({
-		flavour = "macchiato", -- latte, frappe, macchiato, mocha
-		background = { dark = "macchiato" },
+		flavour = "mocha", -- latte, frappe, macchiato, mocha
+		background = { dark = "mocha" },
 		term_colors = true,
 		show_end_of_buffer = true,
 		styles = {

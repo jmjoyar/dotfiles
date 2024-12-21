@@ -12,7 +12,7 @@ return {
 				globalstatus = true,
 				theme = "auto",
 				icons_enabled = true,
-				component_separators = { left = "", rigth = "" },
+				component_separators = { left = "", right = "" },
 			},
 			sections = {
 				lualine_b = {
@@ -34,14 +34,14 @@ return {
 					},
 				},
 				lualine_c = {
-					{
+					--[[ {
 						"filetype",
 						colored = true,
 						icon_only = true,
 						icon = { align = "left" },
 						padding = { left = 1, rigth = 0 },
-					},
-					{ "filename", newfile_status = true, path = 0, padding = { left = 0, rigth = 1 } },
+					}, ]]
+					{ "filename", newfile_status = true, path = 0, padding = { left = 1, rigth = 1 } },
 				},
 				lualine_x = {
 					{
