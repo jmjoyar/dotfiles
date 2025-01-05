@@ -9,6 +9,8 @@ opt.relativenumber = true
 opt.scrolloff = 8 -- Minimal number of screen lines to keep above and below the cursor.
 opt.sidescrolloff = 8 -- Minimal number of screen lines to keep left and right of the cursor.
 
+opt.guicursor = "n-v-i-c:block-Cursor"
+
 opt.showmode = false
 
 -- Clipboard
