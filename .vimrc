@@ -79,50 +79,6 @@ highlight link javaDocTags PreProc
 
 set cursorline
 
-" STATUSLINE {{{
-set ruler
-set laststatus=2 
-
-set statusline=
-set statusline+=\ 
-set statusline+=%t
-set statusline+=\ 
-set statusline+=%7{b:gitbranch}
-set statusline+=\ 
-set statusline+=%m
-set statusline+=\ 
-set statusline+=%h
-set statusline+=\ 
-set statusline+=%r
-set statusline+=%=
-set statusline+=%l
-set statusline+=,
-set statusline+=%-13v
-set statusline+=\ 
-set statusline+=%P
-set statusline+=\ 
-
-function! StatuslineGitBranch()
-  let b:gitbranch=""
-  if &modifiable
-    try
-      let l:dir=expand('%:p:h')
-      let l:gitrevparse = system("git -C ".l:dir." rev-parse --abbrev-ref HEAD")
-      if !v:shell_error
-        let b:gitbranch="(".substitute(l:gitrevparse, '\n', '', 'g').")"
-      endif
-    catch
-    endtry
-  endif
-endfunction
-
-augroup GetGitBranch
-  autocmd!
-  autocmd VimEnter,WinEnter,BufEnter * call StatuslineGitBranch()
-augroup END
-
-"}}}
-
 " MAPPINGS {{{
 let mapleader=","
 
@@ -160,7 +116,3 @@ nnoremap <leader>e :Ex<CR>
 nnoremap <leader>l :Lex 20<CR>
 
 "}}}
-
-
-" Plugins configuration
-
