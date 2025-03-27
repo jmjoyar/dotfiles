@@ -57,3 +57,6 @@ style = "Bold Italic"
 [font.italic]
 family = "Source Code Pro"
 style = "Italic"
+
+[mouse]
+hide_when_typing = true
