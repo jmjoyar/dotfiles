@@ -49,8 +49,6 @@ set showcmd
 
 set showmode
 
-set ruler
-
 set wildmenu
 set wildmode=list:longest
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
