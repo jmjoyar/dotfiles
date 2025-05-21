@@ -3,7 +3,6 @@ import = ["~/.config/alacritty/themes/catppuccin-mocha.toml"]
 
 
 [shell]
-#program = "/usr/bin/zsh"
 program = "/usr/bin/bash"
 
 [scrolling]
@@ -19,19 +18,6 @@ decorations = "None"
 text = "CellBackground"
 cursor = "CellForeground"
 
-[hints]
-alphabet = "jfkdls;ahgurieowpq"
-
-[[hints.enabled]]
-command = "xdg-open"
-hyperlinks = true
-post_processing = true
-persist = true
-
-[hints.enabled.mouse]
-enabled = true
-mods = "None"
-
 [cursor]
 blink_timeout = 0
 blink_interval = 600
@@ -43,19 +29,19 @@ blinking = "Always"
 size = 18
 
 [font.normal]
-family = "Source Code Pro"
+family = "Red Hat Mono"
 style = "Regular"
 
 [font.bold]
-family = "Source Code Pro"
+family = "Red Hat Mono"
 style = "Bold"
 
 [font.bold_italic]
-family = "Source Code Pro"
+family = "Red Hat Mono"
 style = "Bold Italic"
 
 [font.italic]
-family = "Source Code Pro"
+family = "Red Hat Mono"
 style = "Italic"
 
 [mouse]
