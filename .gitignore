@@ -11,6 +11,9 @@ drw.o
 dmenu
 stest
 
+!/.local/share/dwm/
+!/.local/share/dwm/autostart.sh
+
 # Emacs
 
 # Remove backup files
