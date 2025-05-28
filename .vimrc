@@ -24,6 +24,9 @@ set mouse=a
 set number
 set relativenumber
 
+set laststatus=2
+set ruler
+
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -62,7 +65,7 @@ let g:netrw_banner=0
 set termguicolors
 set t_Co=256
 
-colorscheme slate
+colorscheme onedark
 set background=dark
 
 " Java syntax highlight 
