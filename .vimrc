@@ -65,7 +65,7 @@ let g:netrw_banner=0
 set termguicolors
 set t_Co=256
 
-colorscheme onedark
+colorscheme slate
 set background=dark
 
 " Java syntax highlight 
