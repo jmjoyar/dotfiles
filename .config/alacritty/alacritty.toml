@@ -26,7 +26,7 @@ blink_interval = 600
 blinking = "Always"
 
 [font]
-size = 18
+size = 17.5
 
 [font.normal]
 family = "Red Hat Mono"
