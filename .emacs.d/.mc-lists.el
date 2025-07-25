@@ -9,5 +9,7 @@
 
 (setq mc/cmds-to-run-once
       '(
+	beginning-of-buffer
+	end-of-buffer
 	end-of-defun
 	))
