@@ -1,6 +1,5 @@
 #Alacritty configuration
-import = ["~/.config/alacritty/themes/catppuccin-mocha.toml"]
-
+#import = ["~/.config/alacritty/themes/catppuccin-mocha.toml"]
 
 [shell]
 program = "/usr/bin/bash"
@@ -26,23 +25,23 @@ blink_interval = 600
 blinking = "Always"
 
 [font]
-size = 17.5
+size = 16
 
 [font.normal]
-family = "Red Hat Mono"
-style = "Regular"
+family = "JuliaMono"
+style = "Light"
 
 [font.bold]
-family = "Red Hat Mono"
-style = "Bold"
+family = "JuliaMono"
+style = "ExtraBold"
 
 [font.bold_italic]
-family = "Red Hat Mono"
-style = "Bold Italic"
+family = "JuliaMono"
+style = "ExtraBold Italic"
 
 [font.italic]
-family = "Red Hat Mono"
-style = "Italic"
+family = "JuliaMono"
+style = "Light Italic"
 
 [mouse]
 hide_when_typing = true
