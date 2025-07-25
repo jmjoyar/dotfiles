@@ -54,19 +54,48 @@ set showmode
 
 set wildmenu
 set wildmode=list:longest
-set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
+
+" Wildignore
+
+function! SetupWildignore()
+    " Office documents
+    set wildignore=*.docx,*.pdf,*.xlsx
+
+    " Image files
+    set wildignore+=*.jpg,*.png,*.gif,*.img
+
+    " Temporary, backup, and swap files
+    set wildignore+=*.log,*.tmp,*.bak,*.cache,*.swp,*.swo,*.swn
+
+    " Python files and environments
+    set wildignore+=*.pyc
+    set wildignore+=*/__pycache__/*,*/venv/*,*/.venv/*
+
+    " JavaScript / Node / Frontend folders
+    set wildignore+=*/node_modules/*,*/dist/*
+    " Java files and build outputs
+    set wildignore+=*.class,*.war,*.ear
+    set wildignore+=*/target/*,*/build/*
+
+    " Compiled and binary files
+    set wildignore+=*.exe,*.out,*.bin
+    set wildignore+=*.o,*.obj,*.a,*.lib,*.so,*.dll
+    set wildignore+=*.gch,*.pch,*.d,*.dep
+endfunction
+
+call SetupWildignore()
+
 set wildoptions=pum
 
 set complete-=i
 set complete+=kspell
 
-let g:netrw_banner=0
-
 set termguicolors
 set t_Co=256
 
-colorscheme slate
 set background=dark
+colorscheme slate
+
 
 " Java syntax highlight 
 let java_highlight_functions = 1
