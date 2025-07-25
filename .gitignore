@@ -23,6 +23,9 @@ stest
 *~
 .#*
 
+# Native-compiled *.eln files
+eln-cache/
+
 # Emacs packages
 elpa/
 var/
