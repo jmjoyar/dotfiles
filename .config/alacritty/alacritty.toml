@@ -28,19 +28,19 @@ blinking = "Always"
 size = 16
 
 [font.normal]
-family = "JuliaMono"
+family = "Google Sans Code"
 style = "Light"
 
 [font.bold]
-family = "JuliaMono"
+family = "Google Sans Code"
 style = "ExtraBold"
 
 [font.bold_italic]
-family = "JuliaMono"
+family = "Google Sans Code"
 style = "ExtraBold Italic"
 
 [font.italic]
-family = "JuliaMono"
+family = "Google Sans Code"
 style = "Light Italic"
 
 [mouse]

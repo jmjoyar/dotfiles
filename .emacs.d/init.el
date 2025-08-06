@@ -22,7 +22,7 @@
 (setq delete-by-moving-to-trash t)
 
 (set-face-attribute 'default nil
-		    :family "JuliaMono"
+		    :family "Google Sans Code"
 		    :height 130
 		    :weight 'light)
 
@@ -60,10 +60,10 @@
      default))
  '(inhibit-startup-screen t)
  '(package-selected-packages
-   '(atom-one-dark-theme company go-mode haskell-mode hc-zenburn-theme
-			 markdown-mode multiple-cursors nano-theme
-			 nord-theme smex undo-fu undo-tree yasnippet
-			 zenburn-theme))
+   '(atom-one-dark-theme company go-mode gruber-darker-theme haskell-mode
+			 hc-zenburn-theme markdown-mode
+			 multiple-cursors nano-theme nord-theme smex
+			 undo-fu undo-tree yasnippet zenburn-theme))
  '(version-control 'never))
 
 (load-theme 'hc-zenburn :no-confirm)
