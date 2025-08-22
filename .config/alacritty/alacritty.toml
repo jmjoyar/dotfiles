@@ -1,5 +1,4 @@
 #Alacritty configuration
-#import = ["~/.config/alacritty/themes/catppuccin-mocha.toml"]
 
 [shell]
 program = "/usr/bin/bash"
@@ -33,11 +32,11 @@ style = "Light"
 
 [font.bold]
 family = "Google Sans Code"
-style = "ExtraBold"
+style = "Bold"
 
 [font.bold_italic]
 family = "Google Sans Code"
-style = "ExtraBold Italic"
+style = "Bold Italic"
 
 [font.italic]
 family = "Google Sans Code"
