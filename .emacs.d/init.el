@@ -23,9 +23,8 @@
 
 (set-face-attribute 'default nil
 		    :family "Google Sans Code"
-		    :height 130
+		    :height 140
 		    :weight 'light)
-
 
 (global-display-line-numbers-mode)
 (setq display-line-numbers-type 'relative)
