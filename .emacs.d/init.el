@@ -22,9 +22,10 @@
 (setq delete-by-moving-to-trash t)
 
 (set-face-attribute 'default nil
-		    :family "Google Sans Code"
+		    :family "InputMono"
 		    :height 140
-		    :weight 'light)
+		    :weight 'light
+		    :width 'condensed)
 
 (global-display-line-numbers-mode)
 (setq display-line-numbers-type 'relative)
@@ -62,7 +63,8 @@
    '(atom-one-dark-theme company go-mode gruber-darker-theme haskell-mode
 			 hc-zenburn-theme markdown-mode
 			 multiple-cursors nano-theme nord-theme smex
-			 undo-fu undo-tree yasnippet zenburn-theme))
+			 undo-fu undo-tree yaml-mode yasnippet
+			 zenburn-theme))
  '(version-control 'never))
 
 (load-theme 'hc-zenburn :no-confirm)

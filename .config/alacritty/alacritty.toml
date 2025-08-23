@@ -27,19 +27,19 @@ blinking = "Always"
 size = 16
 
 [font.normal]
-family = "Google Sans Code"
+family = "InputMono Narrow"
 style = "Light"
 
 [font.bold]
-family = "Google Sans Code"
+family = "InputMono Narrow"
 style = "Bold"
 
 [font.bold_italic]
-family = "Google Sans Code"
+family = "InputMono Narrow"
 style = "Bold Italic"
 
 [font.italic]
-family = "Google Sans Code"
+family = "InputMono Narrow"
 style = "Light Italic"
 
 [mouse]
