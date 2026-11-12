@@ -1,14 +1,11 @@
-# Enable copy paste
 set selection-clipboard clipboard
 
-# Colors
-set default-bg "#808080"
+set default-bg "#252522"
+set recolor true
+set recolor-lightcolor "#EAE7E0"
+set recolor-darkcolor "#34332F"
 
-set font "Cantarell 10"
-
-#Statusbar
 set statusbar-basename "true"
 set statusbar-page-percent "true"
 
-#Window
 set window-title-basename "true"
